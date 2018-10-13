@@ -1,0 +1,142 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Home Page | FEDE Suisse</title>
+    <meta name="Description" content="Fédération des socitétés Suisses de l'est du Canada">
+    <meta name="author" content="Jdesmarais">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_about.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,600,800' rel='stylesheet' type='text/css'>
+    <script src="scripts/script.js" charset="utf-8"></script>
+    <script src="scripts/functions.js" charset="utf-8"></script>
+    <script src="scripts/variables.js" charset="utf-8"></script>
+    <script src="scripts/translate.js" charset="utf-8"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="json/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body>
+   <div class="main">
+       <div class="head">
+         <div class="languages">
+                <a class="chLang" id="francais" onclick="changeLang();return false;" href="#" data-translate="langage">English</a>
+                <a class="social" id="facebook" target="_blank" href="http://www.facebook.com/fedesuisse"­>
+                    <img src="images/facebookicon.png">
+                </a>
+                <a class="email" href="mailto:webmaster@fedesuisse.com">
+                    <img src="images/emailicon.png">
+                </a>
+                <!--<a class="chLang" id="francais" onclick="change_lang();return false;" href="#" data-translate="langage">francais</a>-->
+
+
+            </div>
+           <div class="titleContainer">
+                <img class="logoTitle" src="images/logo.png" alt="FedeSuisse">
+                <h1 class="textTitle" data-translate="titre">fédération des sociétés suisses de l'est du canada</h1>
+            </div>
+            <div class="mainMenu">
+               <label for="show-menu" class="show-menu">
+                   <img src="images/button.png"/>
+               </label>
+               <input type="checkbox" id="show-menu" role="button" name="menuToggle">
+               <ul class="menuListe">
+                    <li class="menu_element" id="edgeLeft"><a href="index.html" >accueil</a></li>
+                    <li class="menu_element_active"><a href="about.html">à propos</a></li>
+                    <li class="menu_element"><a href="fetenationale.html">Programme fête nationale</a></li>
+                    <li class="menu_element"><a href="tombola.html">tombola</a></li>
+                    <li class="menu_element"><a href="news.html">histoire</a></li>
+                    <li class="menu_element"><a href="clubs.html" >clubs suisses</a></li>
+                    <li class="menu_element"><a href="events.html">événements</a></li>
+                    <li class="menu_element"><a href="liens.html">liens</a></li>
+                    <li class="menu_element" id="edgeRight"><a href="contacts.html" >contacts</a></li>
+                    <li class="menu_element" id="mobileLanguageMenu">
+                      <div class="mobileLanguage">
+                             <a class="chLang" id="francais" onclick="changeLang();return false;" href="#" data-translate="langage">English</a>
+                             <a class="social" id="facebook" target="_blank" href="http://www.facebook.com/fedesuisse"­>
+                                 <img src="images/facebookicon.png">
+                             </a>
+                             <a class="email" href="mailto:webmaster@fedesuisse.com">
+                                 <img src="images/emailicon.png">
+                             </a>
+                             <!--<a class="chLang" id="francais" onclick="change_lang();return false;" href="#" data-translate="langage">francais</a>-->
+
+
+                         </div>
+
+                       </li>
+                </ul>
+           </div>
+       </div>
+       <div class="center">
+            <div class="content">
+                <div class="aboutMenu">
+                    <ul>
+                        <li><a class="menuAbout" href="#" onclick="about(this, 'lafederation')" data-translate="federation"­>La fédération</a></li>
+                        <li><a class="menuAbout" href="#" onclick="about(this, 'lecomite')" data-translate="comite"­>Le comité</a></li>
+                        <li><a class="menuAbout" href="#" onclick="about(this, 'presidents')" data-translate="presidents"­>Nos présidents</a></li>
+                        <li><a class="menuAbout" href="#" onclick="about(this, 'mission')" data-translate="mission"­>Notre mission</a></li>
+                        <li><a class="menuAbout" href="#" onclick="about(this, 'politiques')" data-translate="politiques"­>Nos politiques d'utilisation</a></li>
+                    </ul>
+                </div>
+                <div class="textes">
+
+                </div>
+            <div class="rightPane">
+                <div class="contain">
+                    <div class="titreRightPane">
+                        <p >événements à venir</p>
+                    </div>
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23000000&amp;src=eusppf16ll25spo7q274mgrr5s%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FToronto" style="border:solid 1px #777" width="300" height="300" frameborder="0" scrolling="no"></iframe>
+                </div>
+                </div>
+        </div>
+
+       </div>
+       <div class="banners">
+        <div class="leftBanner">
+        </div>
+        <div class="rightBanner">
+        </div>
+       </div>
+       <div class="foot">
+        <div id="footLeft">
+           <p class="creditLine">&#9400;Fédération des sociétés suisses de l'est du canada</p>
+        </div>
+        <div id="footRight">
+            <p class="credit">Design et programmation: Jérémie Desmarais</p>
+        </div>
+       </div>
+
+   </div>
+       <script type="text/javascript">
+            $(".textes").load("textes/lafederation");
+        </script>
+
+</body>
+
+</html>

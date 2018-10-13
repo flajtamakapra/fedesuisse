@@ -1,0 +1,68 @@
+.textes {
+	max-width: 90% !important;
+	min-height: 90% !important;
+}
+.detailTombola p {
+	font-size: 12px;
+	line-height: 20px;
+}
+.detailTombola {
+		border-bottom: 1px solid black;
+}
+.listeTombola img {
+	max-width: 30%;
+	margin-top: 10px;
+
+}
+.listeTombola {
+	list-style: none;
+	padding-left: 0;
+}
+
+@media screen and (min-width: 1024px){
+	/***************************************************************
+	    Liste Tombola
+	****************************************************************/
+
+			.listeTombola{
+					list-style: none;
+					padding-top: 60px;
+			}
+			.imagesTombola{
+					display: inline-block;
+					vertical-align: top;
+					padding-top: 5px;
+					padding-right: 30px;
+					border-bottom: 1px dotted #000;
+					min-height: 143px;
+					min-width: 195px;
+					text-align: center;
+			}
+			.imagesTombola img{
+					max-width: 150px;
+					max-height: 130px;
+					border: 0px;
+					margin-top: 0;
+			}
+			.detailTombola{
+					display: inline-block;
+					max-width: 60%;
+					min-width: 60%;
+					padding-left: 30px;
+					border-left: 1px solid #000;
+					border-bottom: 1px dotted #000;
+					min-height: 148px;
+
+			}
+			.detailTombola p{
+					font-size: 0.9em;
+					line-height: 1.5em;
+					margin: 0;
+					padding-bottom: 8px;
+					padding-top: 20px;
+			}
+			.gagnantsTombola {
+					font-weight: bold;
+					padding-top: 10px;
+			}
+}

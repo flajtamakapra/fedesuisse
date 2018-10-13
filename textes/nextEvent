@@ -1,0 +1,20 @@
+<h2 class="aproposTitre">programme de la fête nationale</h2>
+<p>Le programme et l’horaire de la Fête Nationale Suisse 2018 peut être téléchargé dans votre ordinateur, tablette ou cellulaire.
+Si vous désirez devenir un futur annonceur dans notre programme annuel, n’hésitez pas à nous contacter : <a href="mailto:info@fedesuisse.com">info@fedesuisse.com</a></p>
+<p>Les éditions des années antérieures seront éventuellement disponibles.</p>
+
+<div class="programme">
+    <div class="progrComplet">
+        <h4>programme complet</h4>
+        <a href="data/ProgrammeSuisse2018.pdf" download>
+            <img src="images/fedesuisseCover.jpg">
+        </a>
+    </div>
+    <div class="horaireJournee">
+        <h4>horaire de la journée</h4>
+        <a href="data/ProgrammeSuisse2018p2.pdf" download>
+            <img src="images/ProgrammeSuisse2018-p2.png">
+        </a>
+    </div>
+    
+</div>

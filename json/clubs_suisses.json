@@ -1,0 +1,153 @@
+{
+  "clubs": [
+    {
+      "nom":"Club suisse des Cantons de l'est",
+      "logo":"images/clubssuisses/ClubSuisseCantonEst.jpg",
+      "presentation":"textes/csce.html",
+      "url":"test",
+      "summary":"csce"
+
+    },
+    {
+      "nom":"Société Suisse Romande",
+      "logo":"images/clubssuisses/SocieteSuisseRomande.jpg",
+      "presentation":"textes/ssr.html",
+      "url":"test",
+      "summary":"ssr"
+
+    },
+    {
+      "nom":"Matterhorn",
+      "logo":"images/clubssuisses/Matterhorn.jpg",
+      "presentation":"textes/matt.html",
+      "url":"",
+      "summary":"matt"
+    },
+    {
+      "nom":"Club Suisse de Québec",
+      "logo":"images/clubssuisses/ClubSuisseDeQuebec.jpg",
+      "presentation":"textes/csdq.html",
+      "url":"clubsuissedequebec@gmail.com",
+      "summary":"csdq"
+    },
+    {
+      "nom":"Helvetica Senior Club",
+      "logo":"images/clubssuisses/HelvetiaSeniorsClub.jpg",
+      "presentation":"textes/hsc.html",
+      "url":"test",
+      "summary":"hsc"
+
+    },
+    {
+      "nom":"La Compagnie des Vignolants du Vignoble Neuchâtelois",
+      "logo":"images/clubssuisses/Vignolants.jpg",
+      "presentation":"textes/cvvn.html",
+      "url":"test",
+      "summary":"cvvn"
+
+    },
+    {
+      "nom":"Swiss National Society",
+      "logo":"images/clubssuisses/SwissNationalSociety.jpg",
+      "presentation":"textes/sns.html",
+      "url":"test",
+      "summary":"sns"
+
+    },
+    {
+      "nom":"Club de lutte suisse du centre du Québec",
+      "logo":"images/clubssuisses/ClubLutteSuisse.jpg",
+      "presentation":"textes/clscq.html",
+      "url":"test",
+      "summary":"clscq"
+
+    },
+    {
+      "nom":"Swiss Jass Club, Montreal",
+      "logo":"images/clubssuisses/SwissJassClub.jpg",
+      "presentation":"textes/sjcm.html",
+      "url":"test",
+      "summary":"sjcm"
+
+    },
+    {
+      "nom":"MGV Harmonie (1987)",
+      "logo":"images/clubssuisses/MGVHarmonie.jpg",
+      "presentation":"textes/mvgh.html",
+      "url":"test",
+      "summary":"mgvh"
+
+    },
+    {
+      "nom":"Chambre de commerce Canado-Suisse",
+      "logo":"images/clubssuisses/ChambreCommCanadoSuisse.jpg",
+      "presentation":"textes/cccs.html",
+      "url":"test",
+      "summary":"cccs"
+
+    },
+    {
+      "nom":"FOLKLOREVEREIN",
+      "logo":"images/clubssuisses/Folkloreverein.jpg",
+      "presentation":"textes/folkloreverein.html",
+      "url":"test",
+      "summary":"folkloreverein"
+
+    },
+    {
+      "nom":"Club de tir",
+      "logo":"images/clubssuisses/ClubTirSuisse.jpg",
+      "presentation":"textes/cdt.html",
+      "url":"",
+      "summary":"cdt"
+    },
+    {
+      "nom":"L'amicale Suisse des Laurentides",
+      "logo":"images/clubssuisses/ClubSuisseLaurentides.jpg",
+      "presentation":"textes/asdl.html",
+      "url":"test",
+      "summary":"asdl"
+
+    },
+    {
+      "nom":"La société de Bienfaisance Canado-Suisse",
+      "logo":"images/clubssuisses/SocieteBienfaisanceCanadoSuisse.jpg",
+      "presentation":"textes/sbcs.html",
+      "url":"test",
+      "summary":"sbcs"
+
+    },
+    {
+      "nom":"La Vaudoise",
+      "logo":"images/clubssuisses/LaVaudoise.jpg",
+      "presentation":"textes/vaudoise.html",
+      "url":"test",
+      "summary":"vaudoise"
+
+    },
+    {
+      "nom":"PiccB'ois Montréal",
+      "logo":"images/clubssuisses/PiccBois.jpg",
+      "presentation":"textes/pbm.html",
+      "url":"test",
+      "summary":"pbm"
+
+    },
+    {
+      "nom":"Schwyzer Hock",
+      "logo":"images/clubssuisses/SchwyzerHock.jpg",
+      "presentation":"textes/sh.html",
+      "url":"test",
+      "summary":"sh"
+
+    },
+    {
+      "nom":"Association of Swiss Parents and Friends of the Alexander von Humboldt School (VSEFA)",
+      "logo":"images/clubssuisses/VSEFASwissParentsAndFriends.jpg",
+      "presentation":"textes/vsefa.html",
+      "url":"test",
+      "summary":"vsefa"
+
+    }
+  ]
+}

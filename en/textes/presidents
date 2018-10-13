@@ -1,0 +1,25 @@
+<h2 class="aproposTitre">our presidents</h2>
+<p class="notePresidents">During the years of 2014 and 2015 <b>M. Anton Koch</b> and <b>M. Peter Fuhrer</b> acted as Co-Presidents</p>
+<ul class="listePresidents">
+	<li><div class="nomPresident">Peter Fuhrer</div><div class="periodePresident">since 2015-01-01</div>
+	</li>
+	<li><div class="nomPresident">Anton Koch</div><div class="periodePresident">2014-01-01 to 2014-12-31</div></li>
+	<li><div class="nomPresident">Anton Koch</div><div class="periodePresident">2013-08-05 to 2013-12-31</div></li>
+	<li><div class="nomPresident">Raphael Delacombaz</div><div class="periodePresident">2012-01-01 to 2013-08-04</div></li>
+	<li><div class="nomPresident">Bruno R. Meli</div><div class="periodePresident">2008-01-01 to 2011-12-31</div></li>
+	<li><div class="nomPresident">Rose-Mary 	Thonney </div><div class="periodePresident">2002-01-01 to 2007-12-31</div></li>
+	<li><div class="nomPresident">Hans Bieri</div><div class="periodePresident">2001-01-01 to 2001-12-31</div></li>
+	<li><div class="nomPresident">Hansruedi Speich</div><div class="periodePresident">1996-01-01 to 2000-12-31</div></li>
+	<li><div class="nomPresident">Jean-Paul Cuénoud</div><div class="periodePresident">1993-01-01 to 1995-12-31</div></li>
+	<li><div class="nomPresident">Jean-Claude Moret</div><div class="periodePresident">1982-01-01 to 1992-12-31</div></li>
+	<li><div class="nomPresident">Franz Gisler</div><div class="periodePresident">1981-01-01 to 1981-12-31 </div></li>
+	<li><div class="nomPresident">Jean-Claude Moret</div><div class="periodePresident">1979-01-01 to 1980-12-31</div></li>
+	<li><div class="nomPresident">Albert Giacometti</div><div class="periodePresident">1976-01-01 to 1978-12-31</div></li>
+	<li><div class="nomPresident">René Suter</div><div class="periodePresident">1973-01-01 to 1975-12-31</div></li>
+	<li><div class="nomPresident">Gilbert Devantéry</div><div class="periodePresident">1971-01-01 to 1972-12-31</div></li>
+	<li><div class="nomPresident">R. Lüthi</div><div class="periodePresident">1970-01-01 to 1970-12-31</div></li>
+	<li><div class="nomPresident">Willy	Steiner</div><div class="periodePresident">1969-01-01 to 1970-12-31</div></li>
+	<li><div class="nomPresident">Urs Pfund</div><div class="periodePresident">1968-01-01 to 1969-12-31 </div></li>
+	<li><div class="nomPresident">Bruno	Wolf</div><div class="periodePresident">1966-01-01 to 1967-12-31</div></li>
+	<li><div class="nomPresident">Jean Bagnoud</div><div class="periodePresident">1965 to 1965-12-31</div></li>
+</ul>

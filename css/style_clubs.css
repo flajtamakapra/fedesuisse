@@ -1,0 +1,109 @@
+.listeClubsSuisses {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+.detailClubsSuisses {
+  margin-left: 10px;
+}
+.listeClubsSuisses img {
+  max-height: 100px;
+  max-width: 70%;
+  width: auto;
+  padding: 30px 15px 15px 15px;
+  vertical-align: middle;
+  cursor: pointer;
+
+}
+.popup {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: rgba(0,0,0,0.05);
+}
+.popup-title {
+  text-align: left;
+  padding: 20px 0 0 20px;
+}
+.popup-title img {
+  max-height: 90px;
+  max-width: 75%;
+}
+.popup-text {
+  text-align: left;
+  padding: 20px;
+  max-width: 85%;
+}
+.popup-text li {
+  font-size: 13px;
+}
+.popup-text h5 {
+  font-size: 16px;
+}
+.popup-text p {
+  margin: 0;
+  line-height: 19px;
+  font-size: 13px;
+}
+.popup-text a {
+  font-style: bold;
+}
+.popup-text h5 {
+  color: #ee2e24;
+  margin: 0;
+}
+.popup-inner {
+  overflow: auto;
+  max-width: 600px;
+  width: 90%;
+  max-height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 2px 6px rgba(0,0,0,1);
+  border-radius: 3px;
+  background: #fff;
+  border: 7px solid #ee2e24;
+}
+.popup-close {
+  padding-top:4px;
+  display:inline-block;
+  position:absolute;
+  top:0px;
+  right:0px;
+  transform:translate(0px, -5px);
+}
+.popup-close img {
+  width: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+  #lastRow {
+    max-width: 30%;
+  }
+  #lastRow img {
+    max-width: 25%;
+    padding: 30px 0 0 0;
+  }
+  .imagesClubsSuisses {
+    display: inline;
+  }
+  .listeClubsSuisses img {
+    max-width: 30%;
+
+  }
+  .popup-text p, li {
+    line-height: 25px;
+    font-size: 15px;
+  }
+
+  .popup-text h5 {
+    font-size: 17px;
+    padding: 0 0 20px 0;
+  }
+}

@@ -1,0 +1,7 @@
+$(function () {
+
+	readJson();
+	//enableLinks();
+
+
+});

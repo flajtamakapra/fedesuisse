@@ -1,0 +1,105 @@
+/***************************************************************
+Mobile + général - Max 425px wide
+****************************************************************/
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-auto-rows: 115px;
+    width: 95%;
+    padding-top: 30px;
+}
+.membre1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.membre2 {
+  display: none;
+}
+.photoMembre{
+    display: inline-block;
+}
+.photoMembre img{
+    width: 67px;
+}
+.texteMembre{
+    display: inline-block;
+    padding-left: 12px;
+}
+.texteMembre p {
+    line-height: 20px;
+    font-size: 13px !important;
+
+}
+.texteMembre a {
+    color: #000;
+    font-weight: 400;
+}
+.listePresidents{
+    list-style: none;
+    padding: 0;
+}
+.nomPresident, .periodePresident{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #000;
+    font-size: 11px;
+}
+.nomPresident{
+    font-weight: bold;
+    width: 40%;
+}
+.periodePresident{
+    width: 40%;
+    text-align: center;
+}
+.notePresidents {
+    font-size: 13px;
+}
+.mid{
+        display: none !important;
+}
+.textes {
+    min-width: 38%;
+    padding-left: 2% !important;
+
+}
+.aproposTitre {
+    border-bottom:1px solid #b6b6b6;
+    margin: 30px 0 15px 0;
+}
+.rightPane {
+    width: 40.5% !important;
+}
+
+/*.wrapper {
+    width: 189%;
+}*/
+
+.nomPresident{
+    width: 50%;
+}
+.periodePresident{
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 110px;
+        width: 113%;
+        padding-top: 5px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px){
+    .textes {
+        max-width: 75% !important;
+    }
+    .wrapper {
+        width: 100%;
+    }
+
+}

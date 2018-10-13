@@ -1,0 +1,467 @@
+/***************************************************************
+Mobile + général - Max 425px wide
+****************************************************************/
+p {font-size: 20px; line-height: 33px;}
+h1, h2, h3{
+    font-size: 1.2em;
+    color: #ee2e24;
+    text-transform: uppercase;
+    margin: 0px;
+}
+h2 {
+    border-bottom: 1px solid #b6b6b6;
+}
+h4 {
+    text-transform: uppercase;
+    color: #b6b6b6;
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+h5 {
+    color: #000;
+    font-size: 20px;
+}
+a {
+  color: #ee2e24;
+  font-weight: 
+  bold;text-decoration: none;
+}
+
+body, html {
+    border: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+sup {font-size: 0.5em;}
+
+.main{
+        margin: auto;
+        max-width: 768px;
+        border-top: 10px solid #ee2e24;
+        text-align: center;
+}
+.head {
+    text-align: left;
+    height: 190px;
+    position: relative;
+    background-image: url("../images/fede_banniere_top.jpg");
+}
+.mid{
+    height: 300px;
+    background-color: #f4f3f1;
+}
+.center{
+    background-color: white;
+    text-align: left;
+}
+.rightPane {
+    display: none;
+
+}
+/***************************************************************
+Titre principal
+****************************************************************/
+.titleContainer {
+    padding-top: 15px;
+    padding-left: 8.5%;
+    min-width: 360px;
+}
+.titleContainer h1{
+    color: #000;
+    min-width: 200px;
+    max-width: 200px;
+}
+.logoTitle {
+    width: 100px;
+    cursor: pointer;
+}
+.textTitle {
+    font-size: 1.3em;
+    line-height: 28px;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 57%;
+    margin: 0px;
+    padding-top: 1px;
+    padding-left: 5%;
+    text-transform: uppercase;
+}
+/***************************************************************
+    Barre de langage - réseaux sociaux   - caché en mode mobile
+****************************************************************/
+.languages {
+	display: none;
+}
+.mobileLanguages {
+    display: inherit;
+    text-align: right;
+    padding-top: 16px;
+    padding-right: 8.5%;
+}
+.chLang {
+    text-decoration: none;
+    font-size: inherit;
+    color: #000;
+    font-weight: bold;
+}
+.social img {
+    height: 15px;
+}
+.email img {
+    height: 14px;
+}
+
+/***************************************************************
+Bannière accueil
+****************************************************************/
+.mid {
+    text-align: center;
+}
+.welcomeBanner{
+    text-align: left;
+    height: 300px;
+    width: 93.85%;
+    margin: auto;
+    background-image: url("../images/accueil_moyenne.jpg");
+}
+.welcomeBanner a{
+    color: #fff;
+}
+.welcomeBanner h1 {
+    color: #fff;
+    margin: 0px;
+    padding-left: 5%;
+    padding-top: 46px;
+    text-transform: capitalize;
+}
+/***************************************************************
+Navigation menu
+****************************************************************/
+.mainMenu {
+    background-color: #ee2e24;
+    margin-top: 16px;
+    width: 100%;
+}
+.mainMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 3.075%;
+    display:none;
+}
+
+.mainMenu li {
+    background-color: #ee2e24;
+    font-size: 17px;
+    font-weight: bold;
+}
+.mainMenu a {
+    color: #fff;
+    margin: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+li.menu_element_active  {
+    background-color: #f4f3f1;
+}
+
+li.menu_element_active a {
+    color: #000;
+}
+.menu_element:hover{
+    background-color: #fff;
+    color: #000;
+}
+.menu_element:hover a{
+    color: #000;
+}
+.show-menu img {
+	width: 34px;
+	margin: 5px 0 0 13px;
+}
+input[type=checkbox]:checked ~ .menuListe {
+	display: block;
+}
+input[type=checkbox]{
+	display: none;
+}
+/***************************************************************
+Contenu
+****************************************************************/
+.content {
+    padding: 10px;
+    width: 93.85%;
+    margin: auto ;
+}
+.textes {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 5%
+
+}
+.textes p img{
+    max-width: 320px;
+}
+/***************************************************************
+    Footer
+****************************************************************/
+.foot{
+    height: 50px;
+    background-color: #ee2e24;
+    color: white;
+    font-size: 12px;
+}
+#footLeft{
+    display: inline-block;
+    text-align: left;
+}
+#footRight{
+    display: inline-block;
+    text-align: right;
+}
+#footLeft{
+    width: 50%;
+}
+#footLeft p{
+    padding-left: 5%;
+}
+#footRight{
+    width: 49%;
+}
+#footRight p{
+    padding-right: 5%;
+}
+.foot p{
+    font-size: 10px;
+    line-height: 12px;
+}
+/***************************************************************
+    Bannières
+****************************************************************/
+.banners {
+    width: 93.85%;
+    text-align: center;
+    padding: 100px 0 35px 0;
+    margin: auto;
+}
+.leftBanner {
+	text-align: center;
+}
+.rightBanner {
+	text-align: center;
+
+}
+.leftBanner img {
+    border: 1px solid #000;
+    width: 100%;
+}
+.rightBanner img {
+    border: 1px solid #000;
+    width: 100%;
+
+}
+/***************************************************************
+    Sous Menu de gauche
+****************************************************************/
+.aboutMenu {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ededed;
+    margin: 10px;
+    width: 70%;
+    font-weight: bold;
+    font-size: 13px;
+}
+.aboutMenu li {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.aboutMenu a {
+    color: #000;
+}
+
+/***************************************************************
+Laptop - à partir de 1024px
+****************************************************************/
+@media only screen and (min-width: 1024px) {
+  p {font-size: 15px;}
+  h1, h2, h3{
+      font-size: 30px;
+      margin-bottom: 0px;
+  }
+  .main{
+          z-index: -10;
+          max-width: 1024px;
+          box-shadow: 2px 4px 20px 5px #b6b6b6;
+  }
+  .head {
+      height: 240px;
+  }
+  .welcomeBanner{background-image: url("../images/accueil_moyenne.jpg");}
+
+  /***************************************************************
+  Navigation menu
+  ****************************************************************/
+  .show-menu {
+    display: none;
+  }
+  .mainMenu {
+      position: absolute;
+      bottom: 0;
+  }
+  .mainMenu ul {
+      display: inline-block;
+  }
+  .mainMenu li {
+      display: inline-block;
+      font-size: 12px;
+
+  }
+  .mainMenu a {
+      line-height: 26px;
+      cursor: pointer;
+      margin: 15px;
+
+  }
+  /***************************************************************
+  Titre principal
+  ****************************************************************/
+  .titleContainer {
+      padding-top: 5px;
+      padding-left: 8.5%;
+  }
+  .titleContainer h1{
+    max-width: 325px;
+  }
+  .logoTitle {
+      width: 120px;
+  }
+  .textTitle {
+      font-size: 30px;
+      line-height: 45px;
+      max-width: 325px;
+      padding-left: 30px;
+  }
+  /***************************************************************
+      Barre de langage - réseaux sociaux
+  ****************************************************************/
+  #mobileLanguageMenu {
+    display: none;
+  }
+  .mobileLanguages {
+      display: none;
+  }
+  .languages {
+      display: inherit;
+      text-align: right;
+      padding-top: 16px;
+      padding-right: 8.5%;
+  }
+  .chLang {
+      text-decoration: none;
+      font-size: 12px;
+      color: #000;
+      font-weight: bold;
+  }
+  .social img {
+      height: 15px;
+  }
+  .email img {
+      height: 14px;
+  }
+  .chLang, .social, .email {
+      padding-left: 5px;
+  }
+  /***************************************************************
+  Contenu
+  ****************************************************************/
+  .content {
+      padding-top: 35px;
+  }
+  .textes {
+      display: inline-block;
+      width: 95%;
+  }
+
+  .rightPane {
+      width: 44.5%;
+      display: none;
+      text-align: right;
+
+  }
+  .titreRightPane {
+      color: #b6b6b6;
+      padding-top: 25px;
+      margin-bottom: 5px;
+      font-weight: bold;
+  }
+  .titreRightPane p {
+      margin: 0;
+      text-transform: uppercase;
+
+  }
+  .contain {
+      margin-left: auto;
+      width: 300px;
+      text-align: left;
+
+  }
+
+  /***************************************************************
+      Footer
+  ****************************************************************/
+  .foot{
+      height: 50px;
+      background-color: #ee2e24;
+      color: white;
+      font-size: 12px;
+  }
+  /***************************************************************
+      Bannières
+  ****************************************************************/
+  .banners {padding: 50px 0 13px 0;}
+  .leftBanner {
+      display: inline-block;
+      padding-right: 5%;
+      vertical-align: middle;
+      width: 61%;
+  }
+  .rightBanner {
+      display: inline-block;
+      vertical-align: middle;
+      width: 30%;
+  }
+  .leftBanner img, .rightBanner img {
+      border: 1px solid #000;
+      width: 100%;
+  }
+  /***************************************************************
+      Sous Menu de gauche
+  ****************************************************************/
+  .aboutMenu {
+      display: inline-block;
+      vertical-align: top;
+      background-color: #ededed;
+      max-width: 178px;
+      min-width: 178px;
+      margin-top: 84px;
+      font-weight: bold;
+  }
+  .aboutMenu li {
+      margin-top: 22px;
+      cursor: pointer;
+  }
+  .aboutMenu a {
+      color: #000;
+  }
+
+}
+
+/***************************************************************
+Moniteur - de 1024px et +
+****************************************************************/

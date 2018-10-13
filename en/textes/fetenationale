@@ -1,0 +1,36 @@
+<h2 class="aproposTitre">swiss national day</h2>
+<p>The 2018 Swiss National Day program and schedule that you can download on your
+computer, tablet or cell phone. If you would like to become a future advertiser in our
+annual program, please contact us: 
+ <a href="mailto:info@fedesuisse.com">info@fedesuisse.com</a></p>
+<p>Previous years versions will be available later.</p>
+
+<div class="programme">
+    <div class="progrComplet">
+        <h4>complete program</h4>
+        <a href="data/ProgrammeSuisse2018.pdf" download>
+            <img src="images/fedesuisseCover.jpg">
+        </a>
+    </div>
+    <div class="horaireJournee">
+        <h4>schedule of the day</h4>
+        <a href="data/ProgrammeSuisse2018p2.pdf" download>
+            <img src="images/ProgrammeSuisse2018-p2.png">
+        </a>
+    </div>
+    <h5>Speech of the Confederation - Alain Berset, President, in the 4 official languages</h5>
+    <ul>
+        <li>
+            French: <a href="https://www.eda.admin.ch/dam/eda/fr/documents/leben-ausland/ansprache-bundesfeier-2018-alain-berset_FR.pdf">Président de la Confédération Alain Berset: Allocution du 1er août 2018 à l'adresse des Suisses de l’étranger</a>
+        </li>
+        <li>
+            English:  <a href="https://www.eda.admin.ch/content/dam/eda/en/documents/leben-ausland/ansprache-bundesfeier-2018-alain-berset_EN.pdf"> 1st of August address of the President of the Swiss Confederation Alain Berset </a>
+        </li>
+        <li>
+            Deutsch: <a href="https://www.eda.admin.ch/dam/eda/de/documents/leben-ausland/ansprache-bundesfeier-2018-alain-berset_DE.pdf">Bundespräsident Alain Berset: Grusswort zum 1. August 2018 für Auslandschweizerinnen und Auslandschweizer</a>
+        </li>
+        <li>
+            Romansch: <a href="https://www.eda.admin.ch/dam/eda/es/documents/leben-ausland/ansprache-bundesfeier-2018-alain-berset_ES.pdf">Alocución del presidente Alain Berset dirigida a los suizos en el extranjero con motivo de la Fiesta Nacional de Suiza 2018</a>
+        </li>
+    </ul>
+</div>
